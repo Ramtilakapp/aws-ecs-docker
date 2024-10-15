@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Welcome to ASHI Node Application !!!!!!");
+  res.send("Welcome to Rasm Tilak Yadav Node Application using ECS through farget!!!!!!");
 });
 
 app.get("/info", (req, res) => {
